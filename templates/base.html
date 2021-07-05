@@ -127,7 +127,7 @@
                     {% elif level == 25 %}
                         {% include 'includes/toasts/toast_success.html' %}
                     {% else %}
-                        {% include 'includes/toasts/toast_info.html' %}
+                        {% include 'includes/toasts/toast_info.html' %}  
                     {% endif %}
                 {% endwith %}
             {% endfor %}
@@ -141,7 +141,7 @@
     {% endblock %}
 
     {% block postloadjs %}
-    <script type="text/javascript">
+    <script>
         $('.toast').toast('show');
     </script>
     {% endblock %}
