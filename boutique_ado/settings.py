@@ -117,7 +117,6 @@ LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
-# DATABASE_URL = 'postgres://dhxvwkkhpoypep:dae41907fc9e09772382852476b07a8c60e6cec6d5073f33ad8147f4529dd023@ec2-34-240-75-196.eu-west-1.compute.amazonaws.com:5432/ddeh62otu2bgs3'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
